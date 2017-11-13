@@ -22,7 +22,7 @@ if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
 </head>
 <body>
     <div class="page-header">
-        <h1>Hi, <b><?php echo $_SESSION['username']; ?></b>. Welcome to our site.</h1>
+        <h1>Hi, <b><?php echo $_SESSION['username']; ?></b>. Welcome to IIC Alumni Portal</h1>
     </div>
 	<p><a href="form.php" class="btn btn-primary">Enter your details</a></p>
 
